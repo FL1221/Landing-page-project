@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    color: white;
+    color: #f9faf8;
     padding: 20px 200px;
 }
 
@@ -56,6 +56,7 @@ a {
     font-size: 46px;
     font-weight: 1000;
     margin: 0px;
+    
 }
 
 .photo {
@@ -74,10 +75,11 @@ a {
 }
 
 .button1 {
-    width: 100px;
+    width: 120px;
     border-radius:8px;
-    margin-top: auto;
-    padding: 5px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
     font-weight: bold;
     background-color: #3882f6;
     color: white;
@@ -118,5 +120,19 @@ a {
     border-radius: 8px;
 }
 
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 300px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1F2937;
+}
 
+.thor {
+    display: flex;
+    margin-left: auto;
+    margin-right: 40px;
+    font-weight: bold;
+}
 
